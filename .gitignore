@@ -1,0 +1,37 @@
+# Игнорировать файлы виртуального окружения Python
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Django специфичные файлы
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Игнорировать секретные ключи и конфигурации
+.env
+*.env
+settings_secret.py
+
+# Игнорировать файлы PyCharm IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+
+# Игнорировать файлы Windows
+Thumbs.db
+desktop.ini
+
+
+
+
+
+
